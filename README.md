@@ -46,11 +46,19 @@ But numerous time you got to create an auto-scaling group as we did:
 
  ## Security:
 Security was applied in our project  through:
-  1. **secutity groups first** :
+
+  1. **Data Governance**: Ensuring that data is managed, stored, and utilized in a secure and compliant manner .
+  2. **Risk Management (ISO 27001)**: Following the ISO 27001 standard for assessing, treating, and managing risks related to the proposed solution, with a focus on data 
+  security .
+  3. **Implementation of Secure Architecture**: Designing and implementing a secure architecture that meets the university's requirements for reliability and security, 
+  including encryption, access control, and identity management , .
+  4. **Security Policy**: Developing a security policy that specifies how sensitive data will be stored, shared, and managed by third parties, outlining the guidelines 
+  and procedures for data security
+  5. **secutity groups first** :
   Each Tier had it's own security group and route table to manage inboud and outbound trafic and who can access them. Specially the Database tier
-  2. **Encryption**:
+  6. **Encryption**:
   Encryption of the Data in our Database
-  3. **AWS WAF**:
+  7. **AWS WAF**:
   For the prevention of the DDOS atacks as exemple
 
  ## Additional informations:
