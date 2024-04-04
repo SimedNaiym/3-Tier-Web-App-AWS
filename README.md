@@ -22,11 +22,15 @@ Here is the Cloud architecture diagram:
 
 ![WhatsApp Image 2024-04-04 at 7 51 38 AM](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/ca5ee4ad-b5c6-41bb-ad4d-d8064b4f95a9)
 
-file:///home/simed/Downloads/version%200.docx
 
+Here is the detailed response for the requirements of the three tiers: 
 
-
-
+![webreq](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/37620154-54da-4779-bfae-56346087aae4)
+![webreqIMG](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/5d85ef28-a7f8-4db6-ae66-937d8555ce1d)
+![Databasereq](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/fbdec4b6-0990-4e72-a424-a6c0d3c03f99)
+![DatabasereqImg](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/9694a558-0645-4e87-a167-45feb90b48f5)
+![ApplicationReq](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/dc782434-e411-4d7f-97f3-e2ebf5ad96e6)
+![ApplicationReqImg](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/dde8bf43-ec0e-413f-a05e-2b4c62a4ddf2)
 
 
 
