@@ -32,6 +32,34 @@ Here is the detailed response for the requirements of the three tiers:
 ![ApplicationReq](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/dc782434-e411-4d7f-97f3-e2ebf5ad96e6)
 ![ApplicationReqImg](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/dde8bf43-ec0e-413f-a05e-2b4c62a4ddf2)
 
+## Scalability:
+Given our project ,'Smart education platform', wich will see a growth of 90%  we useed a VPC with a  /16 CIDR block.We added of course the **internet gateway** for connectivity with the INTERNET and **NAT gateways** for for the outbound trafic for the two regions (having multiple regions will help in time of crisis so you can find a backup):
+![imag](https://github.com/GuiguiSalma/Cloud-project-3-tier-web-application-on-AWS-/assets/132245605/b3d94d79-bdcb-46d7-8ad6-df0b6d64cfd7)
+
+
+## Autoscaling:
+This will allow our instances to perform based on the demand, for example not a lot of traffic on our platform? turn-off the by-standers instances( as i like to call them :) ) , a lot of traffic is comming our way? No problem, more computing power will be added as more instances will be created.Exemple below to show that sometimes it can be specified.
+![image](https://github.com/GuiguiSalma/Cloud-project-3-tier-web-application-on-AWS-/assets/132245605/7ff41d70-438c-4c0d-b110-80367d092342)
+
+But numerous time you got to create an auto-scaling group as we did:
+![pp](https://github.com/GuiguiSalma/Cloud-project-3-tier-web-application-on-AWS-/assets/132245605/a0eb2ee0-56fb-4b6e-b2fd-425d98b514b3)
+
+ ## Security:
+Security was applied in our project  through:
+  1. **secutity groups first** :
+  Each Tier had it's own security group and route table to manage inboud and outbound trafic and who can access them. Specially the Database tier
+  2. **Encryption**:
+  Encryption of the Data in our Database
+  3. **AWS WAF**:
+  For the prevention of the DDOS atacks as exemple
+
+ ## Additional informations:
+- For some services/instances we took **snapshots** specially as we had two availibilty zones. It lets you replicate the instances as it is, with the same configurations.
+
+- We added a **CloudWatch alarm** in our Apptier for when the https requests exceeds an amount.
+ 
+- We of course created the internal and external **load balencers** to ensure equality between our servers :)
+ 
 
 
 
