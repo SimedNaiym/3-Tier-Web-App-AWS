@@ -14,6 +14,7 @@ Welcome to the "SMARTLEARN" project, where innovation meets education! This proj
 Here is the Cloud architecture diagram depicting the three tiers (Application Tier, Web Tier, Database Tier):
 
 
+![WhatsApp Image 2024-04-04 at 7 51 38 AM](https://github.com/SimedNaiym/3-Tier-Web-App-AWS/assets/116762638/ca5ee4ad-b5c6-41bb-ad4d-d8064b4f95a9)
 
 
 
