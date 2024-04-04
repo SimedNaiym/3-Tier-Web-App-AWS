@@ -1,5 +1,6 @@
 # SMARTLEARN : 3-Tier-Web-App-AWS
-3-tier web app that stores students and professors real-time data.
+
+**3-tier web app** that stores students and professors real-time data, A repository containing the project report and the complete Cloud architecture.
 
 
 ### Abstract :
